@@ -1,0 +1,86 @@
+body {
+  background-image: url(kawaii.jpeg);
+  font-family: "Sofia", sans-serif;
+}
+
+p {
+  color: rgb(51, 51, 66);
+  font-size: 21px;
+  font-family: comic sans ms;
+  margin: 30px;
+  font-family: "Sofia", sans-serif;
+}
+
+h1 {
+  color: rgb(34, 30, 82);
+  font-size: 26px;
+  font-family: comic sans ms;
+  margin: 20px;
+  font-family: "Sofia", sans-serif;
+}
+
+.menu {
+  width: 100%;
+  height: 300px;
+}
+
+.personal {
+  background-image: url(pink2.jpg);
+  width: 99%;
+  height: 200px;
+  margin: 0 auto /*center size of web*/;
+  float: left;
+  text-align: left;
+  border: 3px solid;
+  border-color: tan;
+}
+
+.nun {
+  background: #ffbec8;
+  width: 30%;
+  height: 1000px;
+  margin: 10px /*center size of web*/;
+  float: left;
+  text-align: center;
+  border: 7px solid;
+  border-color: tan;
+  border-radius: 40px;
+}
+
+.guest {
+  width: 100%;
+}
+.flex-items {
+  background-image: url(_.jpeg);
+  opacity: 0.8;
+  width: 97%;
+  height: 390px;
+  margin: 10px /*center size of web*/;
+  float: left;
+  text-align: left;
+  border: 4px solid;
+  border-color: silver;
+}
+
+img {
+  border: 1px solid #fcfafa;
+  border-radius: 10px;
+  border-color: tan;
+  width: 25%;
+  margin: 20px;
+  align-self: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 97%;
+  height: 500px;
+  margin: 10px /*center size of web*/;
+  float: left;
+  text-align: left;
+  border: 4px solid;
+  border-color: silver;
+}
